@@ -25,7 +25,7 @@ databydate <- activity %>%
   na.omit()
 
 
-hist(databydate$tsteps, xlab = "Total daily Steps",main="Histogram of Total Steps by day", breaks = 20)
+hist(databydate$tsteps, xlab = "Total daily Steps",main="Histogram of Total Steps by day", breaks = 20,col="green")
 
 #3) Mean and median number of steps taken each day
 
