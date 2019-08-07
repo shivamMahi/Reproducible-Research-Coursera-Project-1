@@ -37,7 +37,7 @@ daily_steps<- activity %>%
 
 daily_steps
 
-plot(daily_steps$date,daily_steps$mean_steps_daily,type="l")
+plot(daily_steps$date,daily_steps$mean_steps_daily,type="l",col="purple")
 
 #4) Time series plot of the average number of steps taken
 
